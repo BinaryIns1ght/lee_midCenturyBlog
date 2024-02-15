@@ -1,0 +1,119 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+
+nav, header, h3, .social-links {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav, header, .social-links {
+    text-transform: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav a, h3 {
+    color: #047F8C;
+}
+
+nav a {
+    padding: 5%;
+}
+
+header {
+    font-size: 37px;
+    font-weight: 600;
+}
+
+header a {
+    color: #3A400C;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+h2, p {
+    font-family: "Lato",sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 22.5px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+article img {
+    width: 70%;
+    height: auto;
+    padding-left: 15%;
+}
+
+h2, h3 {
+    padding-left: 15%;
+}
+
+.wrap p, aside p {
+    width: 70%;
+    padding-left: 15%;
+}
+
+aside h3 {
+    padding-top: 5%;
+}
+
+aside img {
+    width: 20%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: -15%;
+}
+
+ul {
+    padding-left: 20%;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.social-links {
+    padding-top: 2%;
+}
+
+.social-links a {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 2%;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+footer {
+    background-color: #04ADBF;
+    width: 70%;
+    margin-left: 15%;
+}
+
+hr {
+    color: white;
+}
